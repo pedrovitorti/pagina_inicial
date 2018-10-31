@@ -1,8 +1,89 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Teste</title>
+		<meta charset="utf-8">
+		<title>TIMES</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"><!-- link para bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- link para font awesome para icons instalar depois do bootstrap-->
+		<link rel="stylesheet" href="css/style.css"><!-- link para meu css personalizado -->
+
+
 	</head>
 	<body>
-		Pedro
+
+		<!-- Cabeçalho -->
+		<header>
+
+			<h1>Clubes de São Paulo</h1>
+		</header>
+
+			
+		<!-- Seção html5-->
+		<section > 
+			
+
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-3" >
+						<a href="http://www.saopaulofc.net/"><div class="img time1" id="time1">
+						
+						</div></a>
+					</div>
+					<div class="col-md-3">
+						<a href="http://www.palmeiras.com.br/home/"><div class="img time2" id="time2"></div></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://www.corinthians.com.br/"><div class="img time3" id="time3"></div></a></a>
+					</div>
+
+					<div class="col-md-3">
+						<a href="http://www.santosfc.com.br/"><div class="img time4" id="time4"></div></a>
+					</div>
+				</div>
+
+			</div>
+			
+		</section>
+
+		<!-- Rodapé -->
+		<footer>
+
+			
+			
+		</footer>
+
+		<script src="lib/jquery/jquery.min.js"></script><!-- link para JQuery -->
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script><!-- link para bootstrap JS -->
+
+
+		<!-- alerta usando jQuery -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#time1').hover(function(){
+					$(this).addClass('time1_efeito');
+				}).on("mouseout",function(){ /* saída do mouse*/
+					$(this).removeClass('time1_efeito');
+				});
+
+				$('#time2').hover(function(){
+					$(this).addClass('time2_efeito');
+				}).on("mouseout",function(){ /* saída do mouse*/
+					$(this).removeClass('time2_efeito');
+				});
+
+				$('#time3').hover(function(){
+					$(this).addClass('time3_efeito');
+				}).on("mouseout",function(){ /* saída do mouse*/
+					$(this).removeClass('time3_efeito');
+				});
+
+				$('#time4').hover(function(){
+					$(this).addClass('time4_efeito');
+				}).on("mouseout",function(){ /* saída do mouse*/
+					$(this).removeClass('time4_efeito');
+				});
+			});
+		</script>
 	</body>
 </html>

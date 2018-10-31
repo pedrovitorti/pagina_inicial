@@ -1,0 +1,79 @@
+
+html, body, section, .img{
+	height: 100%;
+	background-color: gray;
+}
+
+.img{
+	margin-right: -15px; 
+    margin-left: -15px;  
+    padding-bottom: 90.5%; 
+    background-position: 50% 50%;
+    height: 900px;
+}
+
+
+header {
+	height: 70px;
+	width: 100%;
+	background-color: black;
+}
+
+header h1{
+	margin: auto 0;
+	color: white;
+	text-align: center;
+	font-family: myFirstFont;
+	font-size: 70px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/MPonderosa.ttf');
+}
+
+
+.container {
+	width: 100%;
+}
+
+
+.time1 {
+	background-image: url('../img/time1.jpg');
+}
+
+.time1_efeito{
+	background-image: url('../img/time1_efeito.jpg');
+	
+}
+
+.time2 {
+	background-image: url('../img/time2.jpg');
+}
+
+.time2_efeito{
+	background-image: url('../img/time2_efeito.jpg');
+	
+}
+
+.time3 {
+	background-image: url('../img/time3.jpg');
+}
+
+.time3_efeito{
+	background-image: url('../img/time3_efeito.jpg');
+	
+}
+
+.time4 {
+	background-image: url('../img/time4.jpg');
+}
+
+.time4_efeito{
+	background-image: url('../img/time4_efeito.jpg');
+	
+}
+
+
+
+
