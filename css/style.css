@@ -5,11 +5,11 @@ html, body, section, .img{
 }
 
 .img{
-	margin-right: -15px; 
+	/*margin-right: -15px; 
     margin-left: -15px;  
     padding-bottom: 90.5%; 
     background-position: 50% 50%;
-    height: 900px;
+    height: 30px;*/
 }
 
 
@@ -72,6 +72,11 @@ header h1{
 .time4_efeito{
 	background-image: url('../img/time4_efeito.jpg');
 	
+}
+
+.row {
+ height: 140px;
+
 }
 
 
