@@ -1,84 +1,175 @@
-
-html, body, section, .img{
+html, body, section, .img {
 	height: 100%;
 	background-color: gray;
 }
 
-.img{
-	/*margin-right: -15px; 
+.img {
+	/* margin-right: -15px; 
     margin-left: -15px;  
     padding-bottom: 90.5%; 
     background-position: 50% 50%;
     height: 30px;*/
+	
 }
 
-
 header {
-	height: 70px;
+	height: 45px;
 	width: 100%;
 	background-color: black;
 }
 
-header h1{
+footer {
+	
+	height: 45px;
+	width: 100%;
+	background-color: black;
+}
+
+header h6 {
 	margin: auto 0;
 	color: white;
 	text-align: center;
 	font-family: myFirstFont;
-	font-size: 70px;
+	font-size: 37px;
 }
 
 @font-face {
-    font-family: myFirstFont;
-    src: url('../font/MPonderosa.ttf');
+	font-family: myFirstFont;
+	src: url('../font/MPonderosa.ttf');
 }
-
 
 .container {
 	width: 100%;
 }
 
-
-.time1 {
-	background-image: url('../img/time1.jpg');
+.noticia1 {
+	background-image: url('../img/elpais_mono.png');
 }
 
-.time1_efeito{
-	background-image: url('../img/time1_efeito.jpg');
-	
+.noticia1_efeito {
+	background-image: url('../img/elpais.png');
 }
 
-.time2 {
-	background-image: url('../img/time2.jpg');
+.noticia2 {
+	background-image: url('../img/g1_mono.png');
 }
 
-.time2_efeito{
-	background-image: url('../img/time2_efeito.jpg');
-	
+.noticia2_efeito {
+	background-image: url('../img/g1.png');
 }
 
-.time3 {
-	background-image: url('../img/time3.jpg');
+.noticia3 {
+	background-image: url('../img/247_mono.png');
 }
 
-.time3_efeito{
-	background-image: url('../img/time3_efeito.jpg');
-	
+.noticia3_efeito {
+	background-image: url('../img/247.png');
 }
 
-.time4 {
-	background-image: url('../img/time4.jpg');
+.noticia4 {
+	background-image: url('../img/colunafraga_mono.png');
 }
 
-.time4_efeito{
-	background-image: url('../img/time4_efeito.jpg');
-	
+.noticia4_efeito {
+	background-image: url('../img/colunafraga.png');
+}
+
+.contas_pessoais1 {
+	background-image: url('../img/gmail_mono.png');
+}
+
+.contas_pessoais1_efeito {
+	background-image: url('../img/gmail.png');
+}
+
+.contas_pessoais2 {
+	background-image: url('../img/qacademico_mono.png');
+}
+
+.contas_pessoais2_efeito {
+	background-image: url('../img/qacademico.png');
+}
+
+.contas_pessoais3 {
+	background-image: url('../img/udemy_mono.png');
+}
+
+.contas_pessoais3_efeito {
+	background-image: url('../img/udemy.png');
+}
+
+.contas_pessoais4 {
+	background-image: url('../img/colunafraga_mono.png');
+}
+
+.contas_pessoais4_efeito {
+	background-image: url('../img/colunafraga.png');
+}
+
+.esporte1 {
+	background-image: url('../img/cosme_mono.png');
+}
+
+.esporte1_efeito {
+	background-image: url('../img/cosme.png');
+}
+
+.esporte2 {
+	background-image: url('../img/uol_mono.png');
+}
+
+.esporte2_efeito {
+	background-image: url('../img/uol.png');
+}
+
+.esporte3 {
+	background-image: url('../img/watchespn_mono.png');
+}
+
+.esporte3_efeito {
+	background-image: url('../img/watchespn.png');
+}
+
+.esporte4 {
+	background-image: url('../img/eiplus_mono.png');
+}
+
+.esporte4_efeito {
+	background-image: url('../img/eiplus.png');
+}
+
+.entretenimento1 {
+	background-image: url('../img/primevideo_mono.png');
+}
+
+.entretenimento1_efeito {
+	background-image: url('../img/primevideo.png');
+}
+
+.entretenimento2 {
+	background-image: url('../img/youtube_mono.png');
+}
+
+.entretenimento2_efeito {
+	background-image: url('../img/youtube.png');
+}
+
+.entretenimento3 {
+	background-image: url('../img/watchespn_mono.png');
+}
+
+.eentretenimento3_efeito {
+	background-image: url('../img/watchespn.png');
+}
+
+.entretenimento4 {
+	background-image: url('../img/eiplus_mono.png');
+}
+
+.entretenimento4_efeito {
+	background-image: url('../img/eiplus.png');
 }
 
 .row {
- height: 140px;
-
+	height: 140px;
 }
-
-
-
-
