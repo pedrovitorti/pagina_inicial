@@ -67,23 +67,23 @@
 				</div> -->
 
 			<div class="row ">
-				<a href="https://brasil.elpais.com/">
+				<a href="https://brasil.elpais.com/" target="_blank" >
 					<div class="col-md-3 img noticia1" id="noticia1">
 						<!-- <p>Linha 01, Coluna 01</p> -->
 
 
 					</div>
-				</a> <a href="https://mail.google.com/mail/u/0/#inbox">
+				</a> <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
 					<div class="col-md-3 img contas_pessoais1" id="contas_pessoais1">
 						<!-- <p>Linha 01, Coluna 02</p> -->
 
 					</div>
-				</a> <a href="https://esportes.r7.com/prisma/cosme-rimoli">
+				</a> <a href="https://esportes.r7.com/prisma/cosme-rimoli" target="_blank">
 					<div class="col-md-3 img esporte1" id="esporte1">
 						<!-- <p>Linha 01, Coluna 03</p> -->
 
 					</div>
-				</a> <a href="https://www.primevideo.com/storefront/home/">
+				</a> <a href="https://www.primevideo.com/storefront/home/" target="_blank">
 					<div class="col-md-3 img entretenimento1" id="entretenimento1">
 						<!-- <p>Linha 01, Coluna 04</p> -->
 
@@ -91,23 +91,23 @@
 				</a>
 			</div>
 			<div class="row">
-				<a href="https://g1.globo.com/">
+				<a href="https://g1.globo.com/" target="_blank">
 					<div class="col-md-3 img noticia2" id="noticia2">
 						<!--  <p>Linha 02, Coluna 01</p> -->
 
 					</div>
 				</a> <a
-					href="https://qacademico.ifce.edu.br/qacademico/index.asp?t=1001">
+					href="https://qacademico.ifce.edu.br/qacademico/index.asp?t=1001" target="_blank">
 					<div class="col-md-3 img contas_pessoais2" id="contas_pessoais2">
 						<!--   <p>Linha 02, Coluna 02</p>-->
 
-					</div> <a href="https://esporte.uol.com.br/">
+					</div> <a href="https://esporte.uol.com.br/" target="_blank">
 						<div class="col-md-3 img esporte2" id="esporte2">
 							<!--  <p>Linha 02, Coluna 03</p>-->
 
 
 						</div>
-				</a> <a href="https://www.youtube.com/">
+				</a> <a href="https://www.youtube.com/" target="_blank">
 						<div class="col-md-3 img entretenimento2" id="entretenimento2">
 							<!--   <p>Linha 02, Coluna 04</p>-->
 
@@ -116,41 +116,46 @@
 			</div>
 
 			<div class="row">
-				<a href="https://www.brasil247.com/">
+				<a href="https://www.brasil247.com/" target="_blank">
 					<div class="col-md-3 img noticia3" id="noticia3">
 						<!--   <p>Linha 03, Coluna 01</p>-->
 
 					</div>
-				</a> <a href="https://www.udemy.com/">
+				</a> <a href="https://www.udemy.com/" target="_blank">
 					<div class="col-md-3 img contas_pessoais3" id="contas_pessoais3">
 						<!--   <p>Linha 02, Coluna 02</p>-->
 
 					</div>
 
-				</a> <a href="http://www.espn.com/watch/">
+				</a> <a href="http://www.espn.com/watch/" target="_blank">
 					<div class="col-md-3 img esporte3" id="esporte3">
 						<!--   <p>Linha 03, Coluna 03</p>-->
 
 					</div>
 				</a>
-				<div class="col-md-3">
-					<!--  <p>Linha 03, Coluna 04</p>-->
-					<!--  <img src="img/elpais.png"> -->
-				</div>
+				<a href="https://www.netflix.com/browse" target="_blank">
+
+					<div class="col-md-3 img entretenimento3" id="entretenimento3">
+						<!--  <p>Linha 04, Coluna 01</p>-->
+
+					</div>
+				</a>
 			</div>
 			<div class="row">
-				<a href="https://noticias.r7.com/prisma/coluna-do-fraga">
+				<a href="https://noticias.r7.com/prisma/coluna-do-fraga" target="_blank">
 
 					<div class="col-md-3 img noticia4" id="noticia4">
 						<!--  <p>Linha 04, Coluna 01</p>-->
 
 					</div>
 				</a>
-				<div class="col-md-3">
-					<!--  <p>Linha 04, Coluna 02</p>-->
-					<!--  <img src="img/elpais.png">-->
-				</div>
-				<a href="https://www.eiplus.com.br/">
+				<a href="http://biblioteca.ifce.edu.br/" target="_blank">
+					<div class="col-md-3 img contas_pessoais4" id="contas_pessoais4">
+						<!--  <p>Linha 04, Coluna 02</p>-->
+						<!--  <img src="img/elpais.png">-->
+					</div>
+				</a>
+				<a href="https://www.eiplus.com.br/" target="_blank">
 					<div class="col-md-3 img esporte4" id="esporte4">
 						<!--   <p>Linha 04, Coluna 03</p>-->
 
@@ -261,6 +266,11 @@
 				$(this).removeClass('entretenimento2_efeito');
 			});
 
+			$('#entretenimento3').hover(function() {
+				$(this).addClass('entretenimento3_efeito');
+			}).on("mouseout", function() { /* saída do mouse*/
+				$(this).removeClass('entretenimento3_efeito');
+			});
 			/*$('#esporte3').hover(function(){
 				$(this).addClass('esporte3_efeito');
 			}).on("mouseout",function(){ /* saída do mouse*/
